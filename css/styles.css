@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 24px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+.gallery-link {
+  display: block;
+}
+
+.gallery-item {
+  flex-basis: calc(33.33% - 15px);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
